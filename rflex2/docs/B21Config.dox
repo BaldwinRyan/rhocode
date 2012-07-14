@@ -1,8 +1,0 @@
-\subsubsection parameters ROS parameters
-
-Reads and maintains the following parameters on the ROS server
-
-- \b "~cmd_accel" : \b [double] Acceleration in m/s/s min: 0.0, default: 0.7, max: 1.0
-- \b "~brake_enabled" : \b [bool] Whether the brake is enabled min: False, default: False, max: True
-- \b "~sonar_enabled" : \b [bool] Whether the sonar sensors are enabled min: False, default: False, max: True
-
