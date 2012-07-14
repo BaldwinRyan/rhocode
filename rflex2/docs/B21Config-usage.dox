@@ -1,0 +1,9 @@
+\subsubsection usage Usage
+\verbatim
+<node name="rflex2" pkg="rflex2" type="rflex2">
+  <param name="cmd_accel" type="double" value="0.7" />
+  <param name="brake_enabled" type="bool" value="False" />
+  <param name="sonar_enabled" type="bool" value="False" />
+</node>
+\endverbatim
+
