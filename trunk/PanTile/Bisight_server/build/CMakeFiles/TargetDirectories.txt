@@ -1,0 +1,16 @@
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/BiclopsServer.dir
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/clean-test-results.dir
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/rosbuild_precompile.dir
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/rosbuild_premsgsrvgen.dir
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/rospack_genmsg.dir
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/rospack_genmsg_libexe.dir
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/rospack_gensrv.dir
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/test.dir
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/test-future.dir
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/test-results.dir
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/test-results-run.dir
+/home/noam/ros_workspace/PanTilt/Bisight_server/build/CMakeFiles/tests.dir

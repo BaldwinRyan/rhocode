@@ -1,0 +1,4 @@
+Note: the Biclops code has not been compiled or run in Linux (1/17/2011)
+
+Well, most of the code can't because it is MRDS, but it should probably 
+stay in the repository as reference until ROS code has been written.

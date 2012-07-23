@@ -1,0 +1,2 @@
+float32 panPosition
+float32 tiltPosition
