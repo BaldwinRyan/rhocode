@@ -1,0 +1,18 @@
+<package>
+  <description brief="DPPanTilt_msgs">
+
+     DPPanTilt_msgs
+
+  </description>
+  <author>DARPA ARM GFE Team</author>
+  <license>GPL</license>
+
+  <depend package="roscpp" />
+
+  <export>
+    <cpp cflags="-I${prefix}/msg/cpp -I${prefix}/srv/cpp"/>
+  </export>
+  
+</package>
+
+

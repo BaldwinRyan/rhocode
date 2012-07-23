@@ -1,0 +1,386 @@
+/* Common style sheet for DSS services */
+
+/* Body style */
+html body
+{
+	background-color: #ffffff;
+	color: Black;
+	font-family: Segoe UI, Arial, Helvetica, Sans-Serif;
+	font-size: small;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+form
+{
+	height: 100%;
+}
+
+/* Div styles */
+div.MSRS_Header
+{
+	position: relative;
+	top: .25em;
+	height: 100%;
+	float: right;
+	font-size: 14pt;
+}
+
+div.MSRS_Header span.MSFT
+{
+	font-family: Segoe UI, Arial, Helvetica, Sans-Serif;	
+}
+
+div.MSRS_Header span.MSRS
+{
+	font-family: 'Arial Black', Arial, Verdana;
+	text-transform: uppercase;
+	font-weight: bold;
+	white-space: nowrap;	
+}
+
+#divider
+{
+	width: 10px;
+	height: 100%;
+	background-image: url('/resources/dss/Microsoft.Dss.Runtime.Home.Images.Divider-BG.gif');
+	background-repeat: repeat-y;
+	background-position: left;
+	background-color: #e1e1e1;
+}
+
+.OrangeButton
+{
+	color: White;
+	background-color: #f56200;
+	font-size: x-small;
+	margin-right: .8em;
+	padding: 0 .1em 0 .1em;
+	border-style: solid;
+	border-width: .2em;
+	border-color: #ffaa71 #993d00 #993d00 #ffaa71;
+	cursor: pointer;
+}
+
+.GreenButton
+{
+	color: White;
+	background-color: #00e732;
+	font-size: x-small;
+	margin-right: .8em;
+	padding: 0 .1em 0 .1em;
+	border-style: solid;
+	border-width: .2em;
+	border-color: #6cf289 #00911c #00911c #6cf289;
+	cursor: pointer;
+}
+
+div #serviceStatePage
+{
+	position: relative;
+	height: 95%;
+	overflow: auto;
+	vertical-align:top;
+	background-image: url('/resources/dss/Microsoft.Dss.Runtime.Home.Images.MSRGears.jpg'); 
+	background-repeat: no-repeat;
+	background-position: 90% 95%; 
+	background-attachment: fixed;
+	padding-left: .5%;
+}
+
+div #serviceContent
+{	
+	padding: 0 2% 10% 0;
+}
+
+/* Navigation pane and menus */
+div #navPane
+{
+	overflow: auto;
+	background-color: #f1f1f1;
+	width: 22%;
+	min-width: 12em;
+	max-width: 20em;
+}
+
+div.nav_Menu
+{	
+	margin: .8em .5em 1em .3em;
+}
+
+div.nav_MenuTitle
+{
+	padding: .15em .7em .3em .7em;
+	border-top-color: #f1f1f1;
+	border-right-color: #f1f1f1;
+	border-left-color: #f1f1f1;
+	border-bottom-color: #808080;
+	border-width: 1px;
+	border-style: solid;
+	color: #000000;
+	background-color: #cccccc;
+	font-weight: bold;	
+	cursor: pointer;
+}
+
+div.nav_MenuIcon
+{
+	width: .7em;
+	height: .6em;
+	padding: .1em;
+	float: right;
+	text-align: center;
+	margin-top: .2em;
+}
+
+div.nav_MenuIconInner
+{
+	border-style: none; 
+	width: 11px;
+	height: 11px;
+	line-height: 0;
+}
+
+div.ArrowDown
+{
+	background-image: url('/resources/dss/Microsoft.Dss.Runtime.Home.Images.OpenMenu.png');
+}
+
+div.ArrowUp
+{
+	background-image: url('/resources/dss/Microsoft.Dss.Runtime.Home.Images.CloseMenu.png');
+}
+
+div.nav_Menu ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 .4em 0 .1em;	
+}
+
+div.nav_Menu ul li
+{
+	margin: .15em 0 0 0;
+}
+
+div.nav_Menu ul li a
+{
+	padding: .1em 0 .3em .7em;
+	color: Black;
+	border: solid 1px #f1f1f1;
+	text-decoration: none;
+	display: block;
+}
+
+div.nav_Menu ul li a:hover
+{
+	color: Black;	
+	background-color: #cccccc;
+	border: solid 1px #808080;
+	text-decoration: none;
+}
+
+div.nav_Menu ul li a:active
+{
+	color: Black;	
+	background-color: #cccccc;
+	border: solid 1px #808080;
+	text-decoration: none;
+}
+
+/* Table styles */
+table
+{
+	margin: 3px 0px 3px 0px;
+}
+
+tr.odd
+{
+	background-color: #f1f1f1;
+}
+
+tr.even
+{
+	background-color: white;
+}
+
+td-comment
+{
+	border: 1px solid black;
+}
+
+th
+{
+	height: 21px;
+	color: #222222;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #e5e5e5;
+	border-color: #cacaca;
+	border-width: 1px;
+	border-style: solid;
+}
+
+td
+{
+}
+
+table.card
+{
+	background-color: #f1f1f1;
+	border: solid 1px #808080;
+}
+
+a
+{
+	color:#3169B5;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color:#3169B5;
+}
+
+a:hover
+{
+	color:#0368FA;
+	text-decoration: underline;
+}
+        
+/* SOAP fault styles */
+span.fault
+{
+	font-weight: bold;
+}
+
+span.error 
+{
+	color: Red;
+}
+
+span.warning
+{
+	color: Yellow;
+}
+
+span.info
+{
+	color: Green;
+}
+
+/* Other */
+
+.c
+{
+	cursor: pointer;
+}
+
+.b
+{
+	color: Red;
+	font-family: 'Courier New';
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.e
+{
+	margin-left: 1em;
+	margin-right: 1em;
+	text-indent: -1em;
+}
+
+.k
+{
+	margin-left: 1em;
+	text-indent: -1em;
+	margin-right:1em;
+}
+
+.t 
+{
+	color: #990000;
+}
+
+.xt
+{
+	color: #990099;
+}
+
+.ns
+{
+	color: red;
+}
+
+.dt
+{
+	color: green;
+}
+
+.m
+{
+	color: blue;
+}
+
+.tx
+{
+	font-weight: bold;
+}
+
+.db
+{
+	text-indent: 0px;
+	margin-left: 1em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: .3em;
+	border-left: 1px solid #cccccc;
+	font-size: small;
+	font-family: Courier;
+}
+
+.di
+{
+	font-size: small;
+	font-family: Courier;
+}
+
+.d
+{
+	color: blue;
+}
+
+.pi
+{
+	color: blue;
+}
+
+.cb
+{
+	text-indent: 0px;
+	margin-left: 1em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: .3em;
+	font-size: small;
+	font-family: Courier;
+	color: #888888
+}
+
+.ci
+{
+	font-size: small;
+	font-family: Courier;
+	color:#888888
+}
+
+pre
+{
+	margin: 0px;
+	display: inline;
+}

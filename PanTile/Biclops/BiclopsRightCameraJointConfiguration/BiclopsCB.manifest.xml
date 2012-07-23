@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--This file was created with the Microsoft Visual Programming Language.-->
+<Manifest xmlns:bisightjointanglereference="http://schemas.tempuri.org/2008/07/bisightjointanglereference.html" xmlns:controlbasisapp="http://schemas.tempuri.org/2008/07/controlbasisapp.html" xmlns:biclopsjointconfiguration="http://schemas.lpr.cs.umass.edu/2009/03/biclopsjointconfiguration.html" xmlns:biclops="http://schemas.tempuri.org/2009/03/biclops.html" xmlns:this="urn:uuid:16697ca7-4706-452d-b025-f5c197ec6fe3" xmlns:dssp="http://schemas.microsoft.com/xw/2004/10/dssp.html" xmlns="http://schemas.microsoft.com/xw/2004/10/manifest.html">
+  <CreateServiceList>
+    <ServiceRecordType>
+      <dssp:Contract>http://schemas.tempuri.org/2009/03/biclops.html</dssp:Contract>
+      <dssp:PartnerList />
+      <Name>this:Biclops</Name>
+    </ServiceRecordType>
+    <ServiceRecordType>
+      <dssp:Contract>http://schemas.lpr.cs.umass.edu/2009/03/biclopsjointconfiguration.html</dssp:Contract>
+      <dssp:PartnerList>
+        <dssp:Partner>
+          <dssp:Contract>http://schemas.tempuri.org/2009/03/biclops.html</dssp:Contract>
+          <dssp:PartnerList />
+          <dssp:Name>biclopsjointconfiguration:Biclops</dssp:Name>
+          <dssp:ServiceName>this:Biclops</dssp:ServiceName>
+        </dssp:Partner>
+      </dssp:PartnerList>
+      <Name>this:BiclopsJointConfiguration</Name>
+    </ServiceRecordType>
+    <ServiceRecordType>
+      <dssp:Contract>http://schemas.tempuri.org/2008/07/bisightjointanglereference.html</dssp:Contract>
+      <dssp:PartnerList />
+      <Name>this:BisightJointAngleReference</Name>
+    </ServiceRecordType>
+    <ServiceRecordType>
+      <dssp:Contract>http://schemas.tempuri.org/2008/07/controlbasisapp.html</dssp:Contract>
+      <dssp:PartnerList />
+      <Name>this:ControlBasisApp</Name>
+    </ServiceRecordType>
+  </CreateServiceList>
+</Manifest>
