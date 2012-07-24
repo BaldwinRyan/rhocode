@@ -1,0 +1,17 @@
+<launch>
+  <group>
+    <node pkg="color_blob_detector" type="hue_detector" name="Red" output="screen" clear_params="true">
+      <param name="color_name" value="Red" type="str"/> 
+      <param name="meanColor" value="175" type="int"/> 
+      <param name="windowSize" value="10" type="int"/> 
+      <param name="maxNumComponents" value="5" type="int"/> 
+      <param name="blurKernel" value="10" type="int"/>
+      <param name="minCCThreshold" value="150" type="int"/>
+      <param name="maxCCThreshold" value="3000" type="int"/>
+      <param name="display_image" value="false" type="bool"/> 
+      <param name="base_frame" value="/baseLink" type="str"/> 
+      <param name="source_identifier" value="/kinect/camera/rgb/filtered_points" type="str"/>
+    </node>
+  </group>
+</launch>
+
