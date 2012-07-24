@@ -1,0 +1,15 @@
+<launch>
+    <node pkg="color_blob_detector" type="hue_detector" name="Wood" output="screen" clear_params="true">
+      <param name="color_name" value="Wood" type="str"/> 
+      <param name="meanColor" value="14" type="int"/> 
+      <param name="windowSize" value="10" type="int"/> 
+      <param name="maxNumComponents" value="1" type="int"/> 
+      <param name="blurKernel" value="10" type="int"/>
+      <param name="minCCThreshold" value="100" type="int"/>
+      <param name="maxCCThreshold" value="3000" type="int"/>
+      <param name="display_image" value="false" type="bool"/> 
+      <param name="base_frame" value="/baseLink" type="str"/> 
+      <param name="source_identifier" value="/kinect/camera/rgb/filtered_points" type="str"/>
+    </node>
+</launch>
+
