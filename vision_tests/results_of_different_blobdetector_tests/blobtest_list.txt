@@ -1,0 +1,19 @@
+FROM HISTOGRAM PROBABILITY DENSITY
+1.just hue			no
+2.just sat			no
+3.just int			no
+4.hue & sat			no
+5.hue & int			no
+6.sat & int			no
+7. all hsv			no
+8. all hsv w/ blur kernal = 0 	no
+9. hsv w/o hue%30		no
+10. hsv w/o hue%30, renormalized no
+11. hsv w/o hue >30 cone, renormalized	no
+12. hsv w/o sat=0		no
+13. hsv w/o sat=0 renorm	no
+14. hsv w/o int=256		edge
+15. hsv w/o int=256 renorm	no
+16. h%30, s=0, i=256 filters	edge
+17. h%30, s=0, i=256 filters renorm 	no
+ 
