@@ -1,0 +1,24 @@
+<package>
+  <description brief="ubot_joystick">
+
+     ubot_joystick allows to remote control the uBot.
+
+  </description>
+  <author>Dirk Ruiken</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ubot_joystick</url>
+
+	<depend package="roscpp"/>
+	<depend package="sensor_msgs"/>
+	<depend package="ubot_msgs"/>
+  <depend package="kdl_parser"/>
+  <depend package="kdl"/>	
+  <depend package="actionlib"/>
+  <depend package="actionlib_msgs"/>
+	<depend package="geometry_msgs"/>
+	<depend package="uBotCartesianPositionController"/>
+	<depend package="ubot_controllers"/>
+</package>
+
+
