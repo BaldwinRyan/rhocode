@@ -1,5 +1,0 @@
-<?xml version="1.0" ?>
-<launch>
-<include file="$(find color_blob_detector)/launch/hue_detector_right.launch" />
-<include file="$(find color_blob_detector)/launch/hue_detector_left.launch" />
-</launch>

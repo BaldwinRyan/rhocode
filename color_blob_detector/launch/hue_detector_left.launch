@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<launch>
-	<!-- Variable names -->
-	<arg name="respawn" default="false" />	
-<param name="source_identifier" value="/stereo/left/image_raw" type="str"/>
-		<node name="left_blob_detector" pkg="color_blob_detector" type="hue_detector" respawn="$(arg respawn)" output="screen"/>
-
-	
-</launch>
