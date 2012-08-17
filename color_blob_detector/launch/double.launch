@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<launch>
+	<node name="hue_detector_left" pkg="color_blob_detector" type="hue" output="screen">
+	      <param name="~source_identifier" value="/stereo/left/image_raw" />
+	</node>
+
+	<node name="hue_detector_right" pkg="color_blob_detector" type="hue" output="screen">	
+	      <param name="~source_identifier" value="/stereo/right/image_raw" />
+	</node>
+</launch>

@@ -1,0 +1,34 @@
+<launch>
+  <arg name="hue" value="7"/> 
+  <arg name="window" value="2"/> 
+  <node pkg="color_blob_detector" type="hue_detector_monitor" name="$(anon hue)" output="screen" args="$(arg hue) $(arg window)" clear_params="true">
+
+    <param name="update_rate" value="50" type="int"/> 
+
+    <param name="mean_color" value="$(arg hue)" type="int"/> 
+    <param name="window_size" value="$(arg window)" type="int"/> 
+    <param name="blur_kernel" value="1" type="int"/> 
+    <param name="max_cluster_size" value="20000" type="int"/> 
+    <param name="min_cluster_size" value="100" type="int"/>
+    <param name="within_cluster_distance" value=".01" type="double"/>
+    <param name="cluster_window" value=".001" type="double"/>    
+
+
+    <param name="display_image" value="true" type="bool"/> 
+    <param name="publish_markers" value="false" type="bool"/> 
+
+    <param name="base_frame" value="/baseLink" type="str"/> 
+
+    <param name="feature_type" value="color" type="str"/> 
+    <param name="feature_name" value="hue" type="str"/> 
+    <rosparam param="attribute_names">['scale', 'hue']</rosparam>
+    <rosparam param="attribute_values">
+      scale: ['within_cluster_distance', 'cluster_window']
+      hue: ['mean_color', 'window_size']
+    </rosparam>
+    <param name="source_identifier" value="/pgr_camera_node/image_raw" type="str"/>
+    <param name="output_identifier" value="/kinect/camera/rgb/feature/hue$(arg hue)" type="str"/>
+    <param name="marker_topic" value="/kinect/camera/rgb/feature/hue$(arg hue)/marker" type="str"/>
+  </node>
+</launch>
+
