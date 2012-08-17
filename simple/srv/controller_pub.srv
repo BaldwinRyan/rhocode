@@ -1,0 +1,6 @@
+#Set motion controller publishing directions on or off
+
+bool publish_active
+
+---
+bool success 
