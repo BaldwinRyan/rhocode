@@ -1,5 +1,0 @@
-<launch>
-	<node name="motion_controller" pkg="simple" type="motion_controller" />
-	<node name="arduino" pkg="playground" type="arduino.py" />	
-	<node name="gps_queue" pkg="simple" type="gps_queue" />
-</launch>
