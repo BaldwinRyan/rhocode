@@ -1,0 +1,8 @@
+<launch>
+	<include file="$(find simple)/launch/simple_1.launch" />
+	<include file="$(find rflex)/launch/atrvjr-drivers.launch" />	
+	<include file="$(find pgr_camera_driver)/launch/camera_stereo_proc.launch" />
+	<include file="$(find color_blob_detector)/launch/double.launch" />
+	<node name="triangulation" pkg="color_blob_detector" type="triangulation" output="screen"/>
+	<node name="cone_present" pkg="color_blob_detector" type="cone_present" output="screen"/>	
+</launch>
