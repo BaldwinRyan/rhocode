@@ -1,0 +1,13 @@
+C - 5 minutes, stationary, antenna and gps on ground. antenna end at corner 
+D - 5 minutes, stationary, antenna coiled, closer to building
+E - 5 minutes, stationary, coiled on robot, antenna back
+F - 5 minutes, stationary, coiled on robot, antenna front
+G - same as F
+H - 5 minutes, stationary, coiled on ground (strange)
+I - 5 minutes, on robot, moving back and forth and in small circles
+ 
+--------------- 7/23/12 -------------------------
+A - 5, stationary, on ground 
+B - 5, statinary, coiled under laptopsy
+C - 5, stanionary, coiled under with plate
+D - 5, statinary, coiled next to laptop

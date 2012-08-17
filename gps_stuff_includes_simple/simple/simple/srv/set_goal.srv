@@ -1,0 +1,10 @@
+# service description for setting next GPS waypoint
+
+#Confirm that previous waypoint was reached
+bool destination_reached 
+
+---
+#Send the new destination waypoint
+float64 latitude
+float64 longitude
+
