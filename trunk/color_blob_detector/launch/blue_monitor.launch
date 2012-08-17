@@ -1,0 +1,30 @@
+<launch>
+  <node pkg="color_blob_detector" type="hue_detector_monitor" name="blue" output="screen" clear_params="true">
+
+    <param name="update_rate" value="50" type="int"/> 
+
+    <param name="mean_color" value="115" type="int"/> 
+    <param name="window_size" value="10" type="int"/> 
+    <param name="blur_kernel" value="1" type="int"/> 
+    <param name="max_cluster_size" value="20000" type="int"/> 
+    <param name="min_cluster_size" value="100" type="int"/>
+    <param name="within_cluster_distance" value=".01" type="double"/>
+    
+    <param name="display_image" value="true" type="bool"/> 
+    <param name="publish_markers" value="true" type="bool"/> 
+
+    <param name="base_frame" value="/baseLink" type="str"/> 
+
+    <param name="feature_type" value="color" type="str"/> 
+    <param name="feature_name" value="hue" type="str"/> 
+    <rosparam param="attribute_names">['scale', 'hue']</rosparam>
+    <rosparam param="attribute_values">
+      scale: [0.01]
+      hue: [115.0, 10.0]
+    </rosparam>
+
+    <param name="source_identifier" value="/kinect/camera/rgb/filtered_points" type="str"/>
+    <param name="output_identifier" value="/kinect/camera/rgb/feature/blue" type="str"/>
+    <param name="marker_topic" value="/kinect/camera/rgb/feature/blue/marker" type="str"/>
+  </node>
+</launch>
